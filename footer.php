@@ -6,7 +6,7 @@
 </div>
 <div class="col-md-6" >
     <ul> 
-        <li> <a  target="_blank" href="www.github.com/mk1499"> <i class="fa fa-github fa-3x"> </i></a> </li> 
+        <li> <a  target="_blank" href="https://www.github.com/mk1499"> <i class="fa fa-github fa-3x"> </i></a> </li> 
         <li> <a  target="_blank" href="https://www.facebook.com/mohamed.khaled.114"> <i class="fa fa-facebook fa-3x"></i> </a></li> 
         <li><a  target="_blank"  href="https://www.linkedin.com/in/mohamed-khaled-01908b147/"> <i class="fa fa-linkedin fa-3x"> </i></a> </li>     
     </ul> 
