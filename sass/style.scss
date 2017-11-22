@@ -1,0 +1,58 @@
+$back-color : #333 ;
+$main-color : #337ab7 ;
+$text-color : #fff ;
+
+body{
+    background-color: $back-color ;
+    color: $text-color ;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.panel-default > .panel-heading{
+    background-color: $main-color ;
+    color: $text-color ;
+}
+.panel-body{
+    color: $back-color ;
+}
+a{
+    cursor: pointer ;
+}
+.avatar img{
+        height: 200px;
+        border-radius: 50%;
+        border: 10px solid #eee;
+        background: $back-color ;
+        
+}
+
+.active{
+    border-bottom: 7px solid $main-color ;
+}
+  
+#profile{
+ 
+    display: block;
+}
+.foot{
+    background-color:$main-color;
+    border-color: #080808;
+  padding-top: 20px ;
+  margin-top: 20px;
+  display: block ;
+  bottom: 0;
+
+}
+.foot ul{
+    list-style-type:none;
+    
+}
+.foot li{
+    float: right;
+    padding: 10px;
+}
+.foot a{
+    color: $back-color ;
+}
+    
