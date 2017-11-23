@@ -19,12 +19,14 @@ a {
   border: 10px solid #eee;
   background: #333; }
 
-.active {
+.activ {
   border-bottom: 7px solid #337ab7; }
 
 #profile {
   display: block; }
-
+.hid{
+    display: none;
+}
 .foot {
   background-color: #337ab7;
   border-color: #080808;
