@@ -1,14 +1,14 @@
 $(document).ready(function(){
      
     $("#home").click(function(){
-        $("#home").addClass("active");
+        $("#home").addClass("activ");
      
     });
     $("#users").click(function(){
-        $(this).addClass("active");
+        $(this).addClass("activ");
     });
     $("#about").click(function(){
-        $(this).addClass("active");
+        $(this).addClass("activ");
     });
     
     
@@ -16,22 +16,117 @@ $(document).ready(function(){
     $("#link1").on("click",function(){
         id = '#'+$(this).attr('id');
         chnage(id);
+        $(this).addClass("activ");
+        $("#link7").removeClass("activ");
+        $("#link2").removeClass("activ");
+        $("#link3").removeClass("activ");
+         $("#link4").removeClass("activ");
+        $("#link5").removeClass("activ");
+        $("#link6").removeClass("activ");
+         $("#link8").removeClass("activ");
         
     });
     $("#link2").on("click",function(){
         id = '#'+$(this).attr('id');
         chnage(id);
+        $(this).addClass("activ");
+        $("#link1").removeClass("activ");
+        $("#link7").removeClass("activ");
+        $("#link3").removeClass("activ");
+         $("#link4").removeClass("activ");
+        $("#link5").removeClass("activ");
+        $("#link6").removeClass("activ");
+         $("#link8").removeClass("activ");
+        
         
     });
     $("#link3").on("click",function(){
         id = '#'+$(this).attr('id');
         chnage(id);
+        $(this).addClass("activ");
+        $("#link1").removeClass("activ");
+        $("#link2").removeClass("activ");
+        $("#link7").removeClass("activ");
+         $("#link4").removeClass("activ");
+        $("#link5").removeClass("activ");
+        $("#link6").removeClass("activ");
+         $("#link8").removeClass("activ");
         
     });
     $("#link4").on("click",function(){
         id = '#'+$(this).attr('id');
         chnage(id);
+        $(this).addClass("activ");
+        $("#link1").removeClass("activ");
+        $("#link2").removeClass("activ");
+        $("#link3").removeClass("activ");
+         $("#link7").removeClass("activ");
+        $("#link5").removeClass("activ");
+        $("#link6").removeClass("activ");
+         $("#link8").removeClass("activ");
         
+    });
+    
+    
+     $("#link5").on("click",function(){
+        id = '#'+$(this).attr('id');
+        chnage(id);
+        $(this).addClass("activ");
+        $("#link1").removeClass("activ");
+        $("#link2").removeClass("activ");
+        $("#link3").removeClass("activ");
+         $("#link4").removeClass("activ");
+        $("#link7").removeClass("activ");
+        $("#link6").removeClass("activ");
+         $("#link8").removeClass("activ");
+        
+    });
+    
+     $("#link6").on("click",function(){
+        id = '#'+$(this).attr('id');
+        chnage(id);
+        $(this).addClass("activ");
+        $("#link1").removeClass("activ");
+        $("#link2").removeClass("activ");
+        $("#link3").removeClass("activ");
+         $("#link4").removeClass("activ");
+        $("#link5").removeClass("activ");
+        $("#link7").removeClass("activ");
+         $("#link8").removeClass("activ");
+        
+    });
+    
+     $("#link7").on("click",function(){
+        id = '#'+$(this).attr('id');
+        chnage(id);
+        $(this).addClass("activ");
+        $("#link1").removeClass("activ");
+        $("#link2").removeClass("activ");
+        $("#link3").removeClass("activ");
+         $("#link4").removeClass("activ");
+        $("#link5").removeClass("activ");
+        $("#link6").removeClass("activ");
+         $("#link8").removeClass("activ");
+       
+        
+    });
+    
+     $("#link8").on("click",function(){
+        id = '#'+$(this).attr('id');
+        chnage(id);
+        $(this).addClass("activ");
+        $("#link1").removeClass("activ");
+        $("#link2").removeClass("activ");
+        $("#link3").removeClass("activ");
+         $("#link4").removeClass("activ");
+        $("#link5").removeClass("activ");
+        $("#link6").removeClass("activ");
+         $("#link7").removeClass("activ");
+        
+    });
+    
+    $("#load-more").on("click",function(){
+        $("#hid").fadeIn() ;
     });
     
     function chnage (un){
