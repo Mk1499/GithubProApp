@@ -30,10 +30,13 @@ a{
 .active{
     border-bottom: 7px solid $main-color ;
 }
-  
-#profile{
- 
-    display: block;
+ .activ {
+  border-bottom: 7px solid #337ab7; }
+
+#profile {
+  display: block; }
+.hid{
+    display: none;
 }
 .foot{
     background-color:$main-color;
