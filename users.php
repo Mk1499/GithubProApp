@@ -19,7 +19,16 @@ require ("header.php") ?>
           <li><a id="link2" value="mario">Mario Đanić</a> </li>
           <li><a id="link3" value="Philip">Philip Olson</a> </li>
           <li><a id="link4" value="jo">Johannes Jörg </a> </li>
-          </ul>
+           </ul>
+      
+      <a id="load-more" class="btn btn-primary">Load more </a>
+      <ul class="nav nav-sidebar hid" id="hid"> 
+          <li><a id="link5" value="leo">Leo Lamprecht</a> </li>
+          <li><a id="link6" value="fer">fer</a> </li>
+          <li><a id="link7" value="Phi">Faiyaz Hassan</a> </li>
+          <li><a id="link8" value="zidane">Chris Sanders</a> </li>
+           </ul>
+      
           </div>
   </div>
 </div>
